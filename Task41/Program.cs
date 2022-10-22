@@ -12,7 +12,7 @@ void PrintArray(int[] array)
     } 
 
 }
-void AboveZero(int[] array) // метод считает колличество цифр в массиве выше 0.
+void AboveZero(int[] array) // метод считает колличество чисел в массиве выше 0.
 {
     int count = array.Length;
     int temp = 0;
@@ -20,7 +20,7 @@ void AboveZero(int[] array) // метод считает колличество 
     {
        if (array[j] > 0) {temp++;}
     } 
-    Console.WriteLine($"Колличество цифр выше нуля: {temp}");
+    Console.WriteLine($"Колличество чисел выше нуля: {temp}");
 }
 int n;
 n = int.Parse(Console.ReadLine());
